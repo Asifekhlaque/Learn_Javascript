@@ -55,3 +55,25 @@ var binds to this.
 
 # Browser Support
 The let and const keywords are not supported in Internet Explorer 11 or earlier.
+
+# Javascript DataTypes 
+# Primitive data types & Non-primitive data types
+# Primitive data types
+# Null, Number, Bigint, Boolean, String, Symbol, Undefined
+
+    let nullValue = null; // null
+    let undefinedValue = undefined; // undefined
+    let booleanValue = true; // boolean
+    let numberValue = 10; // number
+    let stringValue = "Hello World!"; // string
+    let symbolValue = Symbol("mySymbol"); // symbol
+    let bigintValue = BigInt(9007199254740991); // bigint
+
+    console.log(nullValue); // Output: null
+    console.log(undefinedValue); // Output: undefined
+    console.log(booleanValue); // Output: true
+    console.log(numberValue); // Output: 10
+    console.log(stringValue); // Output: Hello World!
+    console.log(symbolValue); // Output: Symbol(mySymbol)
+    console.log(bigintValue); // Output: 9007199254740991n
+
