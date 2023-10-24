@@ -86,9 +86,38 @@ The typeof operator to find the data type of a JavaScript variable.
 # Non-primitive data types
 Arrays, Objects and Function
 
-// Arrays
+# Arrays
 
     let numbers = [1, 2, 3, 4, 5];
     console.log(numbers); // Output: [1, 2, 3, 4, 5]
     let fruits = ["apple", "banana", "orange"];
     console.log(fruits); // Output: ["apple", "banana", "orange"]
+# Objects
+
+    let person = {
+     name: "Asif",
+     age: 19,
+     course: "BCA",
+     city: "Patna",
+     country: "India",
+     skills: ["HTML", "CSS", "JavaScript"],
+     isMarried: false
+    };
+
+
+    console.log(person);
+    console.log(person.name); // Output: Asif
+    console.log(person.age); // Output: 19
+    console.log(person.course); // Output: BCA
+    console.log(person.city); // Output: Patna
+    console.log(person.country); // Output: India
+    console.log(person.skills); // Output: ["HTML", "CSS", "JavaScript"]
+    console.log(person.isMarried); // Output: false
+
+# Functions
+    function JavaScript() {
+      console.log("JavaScript is the best language for web development!"); 
+    }
+
+
+    JavaScript(); // Output: Hello!
