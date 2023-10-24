@@ -19,5 +19,8 @@ The var keyword was used in all JavaScript code from 1995 to 2015.
 The let and const keywords were added to JavaScript in 2015.
 
 The var keyword should only be used in code written for older browsers.
+  # Let
+   let can not be redeclared.
 
-let can not be redeclared.
+    let b=20
+    console.log(b)
