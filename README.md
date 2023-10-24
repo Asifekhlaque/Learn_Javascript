@@ -59,7 +59,7 @@ The let and const keywords are not supported in Internet Explorer 11 or earlier.
 # Javascript DataTypes 
 # Primitive data types & Non-primitive data types
 # Primitive data types
-# Null, Number, Bigint, Boolean, String, Symbol, Undefined
+ Null, Number, Bigint, Boolean, String, Symbol, Undefined
 
     let nullValue = null; // null
     let undefinedValue = undefined; // undefined
@@ -82,3 +82,13 @@ The typeof operator to find the data type of a JavaScript variable.
 
     let a=10
     console.log(typeof a)
+
+# Non-primitive data types
+Arrays, Objects and Function
+
+// Arrays
+
+    let numbers = [1, 2, 3, 4, 5];
+    console.log(numbers); // Output: [1, 2, 3, 4, 5]
+    let fruits = ["apple", "banana", "orange"];
+    console.log(fruits); // Output: ["apple", "banana", "orange"]
