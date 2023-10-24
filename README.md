@@ -30,7 +30,10 @@ The var keyword should only be used in code written for older browsers.
     var a=10
     console.log(a)
   # const
+   const can not be redeclared.
 
+    const c=30
+    console.log(c)
 
 # What is Good?
 let and const have block scope.
