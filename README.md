@@ -7,3 +7,14 @@ JavaScript is a scripting language used to develop web pages.
 # Javascript First Progame
 
     console.log("Hello World!");
+
+# Let , Const & Var
+
+
+The var keyword was used in all JavaScript code from 1995 to 2015.
+
+The let and const keywords were added to JavaScript in 2015.
+
+The var keyword should only be used in code written for older browsers.
+
+let can not be redeclared.
