@@ -57,7 +57,7 @@ var binds to this.
 The let and const keywords are not supported in Internet Explorer 11 or earlier.
 
 # Javascript DataTypes 
-# Primitive data types & Non-primitive data types
+ Primitive data types & Non-primitive data types
 # Primitive data types
  Null, Number, Bigint, Boolean, String, Symbol, Undefined
 
