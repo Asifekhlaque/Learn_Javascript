@@ -77,3 +77,8 @@ The let and const keywords are not supported in Internet Explorer 11 or earlier.
     console.log(symbolValue); // Output: Symbol(mySymbol)
     console.log(bigintValue); // Output: 9007199254740991n
 
+# typeof
+The typeof operator to find the data type of a JavaScript variable.
+
+    let a=10
+    console.log(typeof a)
