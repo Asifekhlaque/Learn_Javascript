@@ -121,3 +121,84 @@ Arrays, Objects and Function
 
 
     JavaScript(); // Output: Hello!
+# Oprater
+Optater is a symbol used to perform an operation on a value
+
+    // Arithmetic Operator
+    let a=10
+    let b=20
+    console.log("a+b",a+b)
+    console.log("a-b",a-b)
+    console.log("a*b",a*b)
+    console.log("a**b",a**b)
+    console.log("a/b",a/b)
+    console.log("a++",a++)
+    console.log("a--",a--)
+    //Assignment Operator
+    let c=10
+    console.log(c)
+    c+=3
+    console.log("c+=3",c)
+    c-=3
+    console.log("c-=3",c)
+    c*=3
+    console.log("c*=3",c)
+    c/=3
+    console.log("c/=3",c)
+    c%=3
+    console.log("c%=3",c)
+    // Comparison Operator
+    let d=10;
+    let e=20;
+    let h ="10";
+    console.log("d==e",d==e)
+    console.log("d===h",d===h)
+    console.log("d!=e",d!=e)
+    console.log("d>e",d>e)
+    console.log("d>=e",d>=e)
+    console.log("d<e",d<e)
+    console.log("d<=e",d<=e)
+    // Logical Operator
+    let f=true
+    let g=false
+    console.log("f&&g",f&&g)
+    console.log("f||g",f||g)
+# Condition expression
+Condition expression is a way to create a conditional statement
+if (condition) {
+  // code to be executed if the condition is true
+} else {
+  // code to be executed if the condition is false
+}
+
+    let c=10;
+    let d=20;
+    if(c>d){
+      console.log("c is greater than d")
+    }
+    else if(c==d){
+      console.log("c is equal to d")
+    }
+    else{
+      console.log("c is less than d")
+    }
+
+# Switch Case
+    let a=10;
+    let b=20;
+    switch (true) {
+      case (a > b):
+        console.log("a is greater than b");
+        break;
+      case (a === b):
+        console.log("a is equal to b");
+        break;
+      default:
+        console.log("a is less than b");
+    }
+
+# Ternary Operator
+    let e = 10;
+    let f = 20;
+    let result = (e > f) ? "e is greater than f" : "e is less than or equal to f";
+    console.log(result);
