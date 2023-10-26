@@ -202,3 +202,43 @@ if (condition) {
     let f = 20;
     let result = (e > f) ? "e is greater than f" : "e is less than or equal to f";
     console.log(result);
+
+# Looping Statement
+Loop in JavaScript is a way to execute a block of code repeatedly
+# For loop
+For loop is used to iterate over a block of code a specified number of times
+        
+    for (let i = 0; i < 5; i++) {
+    console.log("Loop Number", i);
+    }
+
+# For in loop
+For in loop is used to iterate over the properties of an object
+      
+    const obj = {
+    prop1: 'value1',
+    prop2: 'value2',
+    prop3: 'value3'
+    };
+
+    for (let k in obj) {
+       console.log(k + ': ' + obj[k]);
+    }
+
+# For of loop
+for of loop is used to iterate over the properties of an array
+
+    const arr = [1, 2, 3, 4, 5];
+
+    for (const element of arr) {
+       console.log(element);
+    }
+
+# While loop
+While loop is used to execute a block of code repeatedly while a condition is true
+
+    let a = 0;
+    do {
+       console.log("Loop Number", a);
+       a++;
+    } while (a < 5);
