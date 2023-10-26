@@ -242,3 +242,14 @@ While loop is used to execute a block of code repeatedly while a condition is tr
        console.log("Loop Number", a);
        a++;
     } while (a < 5);
+# Function
+Function in JavaScript is a block of code that performs a specific task
+
+function myFunction() {
+  // code to perform a specific task
+}
+
+    function add(w,q){
+    return w+q
+    }
+    console.log(add(10,20))
