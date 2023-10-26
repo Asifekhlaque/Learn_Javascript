@@ -253,3 +253,10 @@ function myFunction() {
     return w+q
     }
     console.log(add(10,20))
+
+
+
+    const sub = () => {
+    return 10-20
+    }
+    console.log(sub())
