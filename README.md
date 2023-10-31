@@ -163,6 +163,12 @@ Optater is a symbol used to perform an operation on a value
     let g=false
     console.log("f&&g",f&&g)
     console.log("f||g",f||g)
+
+# Prompt
+It is use to take user input
+
+    b = prompt("Enter a number")
+
 # Condition expression
 Condition expression is a way to create a conditional statement
 if (condition) {
