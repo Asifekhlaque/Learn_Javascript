@@ -30,7 +30,7 @@ The var keyword should only be used in code written for older browsers.
     var a=10
     console.log(a)
   # const
-   const can not be redeclared.
+   Const can not be redeclared.
 
     const c=30
     console.log(c)
@@ -355,7 +355,7 @@ Array is a sequence of elements
     //console.log("Delete",m);
 
 # Console method
-console method is a way to perform operations on a string
+Console method is a way to perform operations on a string
 
     console.log("Hello World!");
     console.assert(1==1);
