@@ -16,7 +16,6 @@ JavaScript is a scripting language used to develop web pages.
 <b>Versatility</b>It is a versatile language used for a variety of tasks, from enhancing website functionality to building complex web applications.
 
 <b>Asynchronous Operations</b>JavaScript supports asynchronous programming, enabling tasks to run independently without blocking the main program flow. This is crucial for efficient handling of tasks like fetching data from servers.
-<b>Ease of Learning</b>Compared to some other programming languages, JavaScript is relatively easy to learn, making it accessible for beginners and enabling quick development.
 
 <b>Ease of Learning</b>Compared to some other programming languages, JavaScript is relatively easy to learn, making it accessible for beginners and enabling quick development.
 
