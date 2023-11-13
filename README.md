@@ -11,6 +11,10 @@ JavaScript is a scripting language used to develop web pages.
 
     console.log("Hello World!");
 
+# JavaScript Advantages
+<b>Client-Side Interactivity</b>JavaScript runs in web browsers, allowing it to create dynamic and interactive user interfaces directly on the user's device.
+
+
 # Let , Const & Var
 
 
