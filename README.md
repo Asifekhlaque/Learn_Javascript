@@ -13,6 +13,7 @@ JavaScript is a scripting language used to develop web pages.
 
 # JavaScript Advantages
 <b>Client-Side Interactivity</b>JavaScript runs in web browsers, allowing it to create dynamic and interactive user interfaces directly on the user's device.
+
 <b>Versatility</b>It is a versatile language used for a variety of tasks, from enhancing website functionality to building complex web applications.
 
 <b>Asynchronous Operations</b>JavaScript supports asynchronous programming, enabling tasks to run independently without blocking the main program flow. This is crucial for efficient handling of tasks like fetching data from servers.
