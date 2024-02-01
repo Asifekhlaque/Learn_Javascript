@@ -241,7 +241,7 @@ For loop is used to iterate over a block of code a specified number of times
     }
 
 # For in loop
-For in loop is used to iterate over the properties of an ^^object^^
+For in loop is used to iterate over the properties of an <span style="background-color: #FFFF00">object</span>
       
     const obj = {
     prop1: 'value1',
