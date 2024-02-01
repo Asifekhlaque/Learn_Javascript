@@ -40,9 +40,11 @@ The let and const keywords were added to JavaScript in 2015.
 The var keyword should only be used in code written for older browsers.
   # let
    let can not be redeclared.
-
+   And it's a block level scope.
+```js
     let b=20
     console.log(b)
+```
   # var
    Only use var if you MUST support old browsers.
 
@@ -79,6 +81,7 @@ The let and const keywords are not supported in Internet Explorer 11 or earlier.
  Primitive data types & Non-primitive data types
 # Primitive data types
  Null, Number, Bigint, Boolean, String, Symbol, Undefined
+ ```js
 
     let nullValue = null; // null
     let undefinedValue = undefined; // undefined
@@ -95,7 +98,7 @@ The let and const keywords are not supported in Internet Explorer 11 or earlier.
     console.log(stringValue); // Output: Hello World!
     console.log(symbolValue); // Output: Symbol(mySymbol)
     console.log(bigintValue); // Output: 9007199254740991n
-
+```
 # typeof
 The typeof operator to find the data type of a JavaScript variable.
 
