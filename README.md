@@ -8,9 +8,9 @@ JavaScript was invented by Brendan Eich in 1995.
 JavaScript is a scripting language used to develop web pages.
 
 # Javascript First Progame
-
+```js
     console.log("Hello World!");
-
+```
 # JavaScript Advantages
 <b>1.Client-Side Interactivity</b>JavaScript runs in web browsers, allowing it to create dynamic and interactive user interfaces directly on the user's device.
 
