@@ -241,7 +241,7 @@ For loop is used to iterate over a block of code a specified number of times
     }
 
 # For in loop
-For in loop is used to iterate over the properties of an object
+For in loop is used to iterate over the properties of an <mark>object</mark>
       
     const obj = {
     prop1: 'value1',
@@ -254,7 +254,7 @@ For in loop is used to iterate over the properties of an object
     }
 
 # For of loop
-for of loop is used to iterate over the properties of an array
+for of loop is used to iterate over the properties of an <mark>array<mark>
 
     const arr = [1, 2, 3, 4, 5];
 
