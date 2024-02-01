@@ -145,7 +145,7 @@ Arrays, Objects and Function
     JavaScript(); // Output: Hello!
 # Oprater
 Optater is a symbol used to perform an operation on a value
-
+```js
     // Arithmetic Operator
     let a=10
     let b=20
@@ -185,7 +185,7 @@ Optater is a symbol used to perform an operation on a value
     let g=false
     console.log("f&&g",f&&g)
     console.log("f||g",f||g)
-
+```
 # Prompt
 It is use to take user input
 
