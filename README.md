@@ -47,9 +47,10 @@ The var keyword should only be used in code written for older browsers.
 ```
   # var
    Only use var if you MUST support old browsers.
-
+```js
     var a=10
     console.log(a)
+```
   # const
    Const can not be redeclared.
 
