@@ -396,3 +396,7 @@ Console method is a way to perform operations on a string
     console.error("This is error")
     console.trace("This is trace")
     console.dir(obj,true)
+# DOM (Document Object Model)
+![image](https://github.com/Asifekhlaque/Learn_Javascript/assets/132199879/1a662252-b229-4527-9fb0-a9c583187aee)
+- JavaScript can change all the HTML elements in the page
+- JavaScript can change all the HTML attributes in the page
