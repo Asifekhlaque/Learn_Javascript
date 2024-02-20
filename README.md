@@ -400,3 +400,6 @@ Console method is a way to perform operations on a string
 ![image](https://github.com/Asifekhlaque/Learn_Javascript/assets/132199879/1a662252-b229-4527-9fb0-a9c583187aee)
 - JavaScript can change all the HTML elements in the page
 - JavaScript can change all the HTML attributes in the page
+```js
+document.getElementById("demo").innerHTML = "Hello World!";
+```
