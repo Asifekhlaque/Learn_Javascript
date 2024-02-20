@@ -409,3 +409,9 @@ document.getElementById(id)  	//Find an element by element id
 document.getElementsByTagName(name)  	//Find elements by tag name
 document.getElementsByClassName(name) 	//Find elements by class name
 ```
+## Node List
+```js
+document.querySelectorAll(".box2").forEach(e =>{
+    e.style.backgroundColor="purple"
+})
+```
