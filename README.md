@@ -425,4 +425,9 @@ document.querySelector(".contaner").append(div)// Add div in contaner
 // Best Way
 let div1=document.querySelector(".contaner")
 div1.insertAdjacentHTML("beforebegin","<div class='JsDiv1' style='color:green;'>Hello</div>")
+// Methods
+let cons=document.querySelector(".contaner")
+cons.insertAdjacentText("beforeend","JavaScript")
+cons.insertAdjacentElement("beforeend",div2)
+cons.insertAdjacentHTML("afterend","<b style='color:blue; font-size: 30px; font-weight: bold; font-family: cursive;'>Hello Js</b>")// append is not working
 ```
