@@ -415,7 +415,7 @@ document.querySelectorAll(".box2").forEach(e =>{
     e.style.backgroundColor="purple"
 })
 ```
-## Adding element in HTML thorugh Javascript
+## Adding element in HTML Javascript
 ```js
 let div=document.createElement("div")
 div.innerHTML="Hello"
@@ -430,4 +430,11 @@ let cons=document.querySelector(".contaner")
 cons.insertAdjacentText("beforeend","JavaScript")
 cons.insertAdjacentElement("beforeend",div2)
 cons.insertAdjacentHTML("afterend","<b style='color:blue; font-size: 30px; font-weight: bold; font-family: cursive;'>Hello Js</b>")// append is not working
+```
+## Remove the element in HTML Javascript
+```js
+// Remove the element
+document.querySelector(".JsDiv").remove()
+document.querySelector(".JsDiv1").remove()
+document.querySelector(".JsDiv2").remove()
 ```
