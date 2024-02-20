@@ -415,3 +415,14 @@ document.querySelectorAll(".box2").forEach(e =>{
     e.style.backgroundColor="purple"
 })
 ```
+## Adding element in HTML thorugh Javascript
+```js
+let div=document.createElement("div")
+div.innerHTML="Hello"
+div.style.color="Red"
+div.setAttribute("class","JsDiv");// Add class in div
+document.querySelector(".contaner").append(div)// Add div in contaner
+// Best Way
+let div1=document.querySelector(".contaner")
+div1.insertAdjacentHTML("beforebegin","<div class='JsDiv1' style='color:green;'>Hello</div>")
+```
