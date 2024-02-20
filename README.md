@@ -403,3 +403,9 @@ Console method is a way to perform operations on a string
 ```js
 document.getElementById("demo").innerHTML = "Hello World!";
 ```
+## Selecting Elements
+```js
+document.getElementById(id)  	//Find an element by element id
+document.getElementsByTagName(name)  	//Find elements by tag name
+document.getElementsByClassName(name) 	//Find elements by class name
+```
