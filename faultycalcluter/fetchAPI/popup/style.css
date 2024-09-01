@@ -1,0 +1,58 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0084ff;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: #00a8ff;
+}
+#btn:active{
+    background-color: #0084ff;
+    scale: 0.9;
+}
+.popup{
+    /* position: absolute; */
+    border: 2px solid #000;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* display: none; */
+}
+.popup button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0084ff;
+    color: #fff;
+}
+.popup p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}

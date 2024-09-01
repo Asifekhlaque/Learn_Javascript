@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.landing{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/projext/WhatsApp\ Image\ 2024-03-02\ at\ 7.13.54\ PM.jpeg");
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}

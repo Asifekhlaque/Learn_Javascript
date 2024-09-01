@@ -1,0 +1,24 @@
+.card1 img{
+    width: 200px;
+}
+.card1{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: red;
+    position:absolute;
+    z-index: 1;
+    transition: 2s ease-in-out;
+
+}
+.card2{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: blue;
+
+}
+.card1:hover{
+    z-index: 0;
+}

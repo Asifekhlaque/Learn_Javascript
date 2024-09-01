@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIBM - Student Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="manCardForAll">
+
+        <div class="informationOfFormContaner">
+            <h1>Welcome to IIBM</h1>
+            <p class="titleOfInforamtion">To Keep connected with us please login with your personal info</p>
+            <ul>
+                <li>
+                    <img src="https://erp.iibm.in/weblogin/image/icon/tick1.png" alt="" class="clickImg">
+                    <p>Manage Personal Information</p>
+                </li>
+
+                <li>
+                    <img src="https://erp.iibm.in/weblogin/image/icon/tick1.png" alt="" class="clickImg">
+                    <p>Class Time Table</p>
+                </li>
+
+                <li>
+                    <img src="https://erp.iibm.in/weblogin/image/icon/tick1.png" alt="" class="clickImg">
+                    <p>View Assignment</p>
+                </li>
+
+                <li>
+                    <img src="https://erp.iibm.in/weblogin/image/icon/tick1.png" alt="" class="clickImg">
+                    <p>Results Analysis</p>
+                </li>
+
+                <li>
+                    <img src="https://erp.iibm.in/weblogin/image/icon/tick1.png" alt="" class="clickImg">
+                    <p>View Announcement</p>
+                </li>
+            </ul>
+        </div>
+        <!-- form Area -->
+        <div class="mainContanerOfForm">
+            <img src="https://erp.iibm.in/common_pic/iibm/logo_pic_1.jpg" alt="iibmLogo">
+            <p class="titleOfSignForm">Sign into your account</p>
+            <div class="errorMessage">
+                <p id="errorMessage">Invalid your username and password Please try again</p>
+            </div>
+            <form onsubmit="return formAct()" action="abc.html">
+                <input type="text" placeholder="Enter Roll No. :" id="nameInput" class="Input">
+                <input type="password" placeholder="Enter Password" id="passwordInput" class="Input">
+                <div class="formBottomArea">
+                    <div class="formBottomSubSection">
+                        <input type="checkbox" class="checkbox">
+                        <label>Remember Me</label>
+                    </div>
+                    <p class="forgot">Forgot Password</p>
+                </div>
+                <input type="submit" value="Secure Login" id="submit">
+            </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

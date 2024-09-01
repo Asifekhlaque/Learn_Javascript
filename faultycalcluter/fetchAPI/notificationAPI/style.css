@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0084ff92;
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #479800;
+    color: #fff;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: #40ce39;
+}
+#btn:active{
+    background-color: #d4ff00;
+    scale: 0.9;
+}

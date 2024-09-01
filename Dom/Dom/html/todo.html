@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(31, 31, 73);
+        }
+        .contaner{
+            width: 300px;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            background-color: aliceblue;
+            padding: 20px;
+        }
+        input{
+            width: 200px;
+            margin-top: 30px;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid rgb(52, 52, 52);
+        }
+        #btn{
+            background-color: rgb(23, 144, 19);
+            border: 2px solid rgb(13, 150, 11);
+            color: aliceblue;
+            border-radius: 10px;
+            padding: 3px;
+            width: 60px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            margin-left: 5px;
+            margin-right: 5px;
+
+        }
+        #btn:hover{
+            background-color: rgb(12, 126, 9);
+            cursor: pointer;
+        }
+        #btnRemove{
+            background-color: rgb(230, 17, 17);
+            border: 2px solid rgb(106, 10, 10);
+            color: aliceblue;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            margin-left: 5px;
+            margin-right: 5px;
+            border-radius: 10px;
+            padding: 3px;
+            width: 60px;
+        }
+        #btnRemove:hover{
+            background-color: rgb(106, 10, 10);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!--  -->
+    <div class="contaner">
+        <div class="box">
+            <h1>To Do List</h1>
+            <input type="text" id="input" placeholder="Enter Your Todo">
+            <button id="btn">Add</button>
+            <ol type="1" id="list"></ol>
+            <button onclick="remove()" id="btnRemove">Remove</button>
+        </div>
+    </div>
+    <script src="Toso.js"></script>
+</body>
+</html>
